@@ -1,0 +1,22 @@
+
+server:
+  port: 9002
+spring:
+  application:
+    name: tensquare-qa #指定服务名
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.163.1:3306/tensquare_qa?charactrEncoding=utf-8
+    username: root
+    password: 123456
+  jpa:
+    database: mysql
+    show-sql: true
+    generate-ddl: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:6868/eureka/
+    instance:
+      prefer-ip-address: true
+debug: true

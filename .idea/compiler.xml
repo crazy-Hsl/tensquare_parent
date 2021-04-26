@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="tensquare_sms" />
+        <module name="tensquare-user" />
+        <module name="tansquare_spit" />
+        <module name="tensquare_common" />
+        <module name="tensquare_eureka" />
+        <module name="tensquare-manager" />
+        <module name="tensquare-web" />
+        <module name="tensquare-config" />
+        <module name="tensquare_qa" />
+        <module name="tensquare-friend" />
+        <module name="tansquare_base" />
+        <module name="tensquare_search" />
+        <module name="tensquare-article" />
+        <module name="tensquare_gathering" />
+        <module name="tensquare_recruit" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="tansquare_base" target="1.8" />
+      <module name="tansquare_spit" target="1.8" />
+      <module name="tensquare-article" target="1.8" />
+      <module name="tensquare-config" target="1.8" />
+      <module name="tensquare-friend" target="1.8" />
+      <module name="tensquare-manager" target="1.8" />
+      <module name="tensquare-user" target="1.8" />
+      <module name="tensquare-web" target="1.8" />
+      <module name="tensquare_common" target="1.8" />
+      <module name="tensquare_eureka" target="1.8" />
+      <module name="tensquare_gathering" target="1.8" />
+      <module name="tensquare_parent" target="1.8" />
+      <module name="tensquare_qa" target="1.8" />
+      <module name="tensquare_recruit" target="1.8" />
+      <module name="tensquare_search" target="1.8" />
+      <module name="tensquare_sms" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="tansquare_base" options="-parameters" />
+      <module name="tansquare_spit" options="-parameters" />
+      <module name="tensquare-article" options="-parameters" />
+      <module name="tensquare-config" options="-parameters" />
+      <module name="tensquare-friend" options="-parameters" />
+      <module name="tensquare-manager" options="-parameters" />
+      <module name="tensquare-user" options="-parameters" />
+      <module name="tensquare-web" options="-parameters" />
+      <module name="tensquare_common" options="-parameters" />
+      <module name="tensquare_eureka" options="-parameters" />
+      <module name="tensquare_gathering" options="-parameters" />
+      <module name="tensquare_qa" options="-parameters" />
+      <module name="tensquare_recruit" options="-parameters" />
+      <module name="tensquare_search" options="-parameters" />
+      <module name="tensquare_sms" options="-parameters" />
+    </option>
+  </component>
+</project>

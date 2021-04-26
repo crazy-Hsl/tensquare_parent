@@ -1,0 +1,13 @@
+server:
+  port: 9009
+spring:
+  application:
+    name: tensquare-sms
+  rabbitmq:
+    host: 192.168.163.1
+#aliyun:
+#  sms:
+#    accessKeyId:
+#    accessKeySecret:
+#    template_code: SMS_85735065
+#    sign_name: 黑马
